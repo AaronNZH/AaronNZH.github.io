@@ -2,9 +2,14 @@
 <div class="publication-list">
   {% for paper in papers %}
   <article class="publication-list__item">
-    <h3><a href="{{ paper.link }}">{{ paper.title }}</a></h3>
-    <p>{{ paper.authors | replace: 'Zhenhua Ning', '<strong>Zhenhua Ning</strong>' }}</p>
-    <p><em>{{ paper.venue }}</em> · {{ paper.date | date: '%Y' }} &nbsp; [<a href="{{ paper.paperurl }}">Paper</a>]{% if paper.codeurl %} &nbsp; [<a href="{{ paper.codeurl }}">Code</a>]{% endif %}</p>
+    <a class="publication-list__thumbnail" href="{{ paper.thumbnail | relative_url }}" aria-label="View Figure 1 from {{ paper.title }}">
+      <img src="{{ paper.thumbnail | relative_url }}" alt="Figure 1 from {{ paper.title }}" loading="lazy">
+    </a>
+    <div class="publication-list__details">
+      <h3><a href="{{ paper.link }}">{{ paper.title }}</a></h3>
+      <p>{{ paper.authors | replace: 'Zhenhua Ning', '<strong>Zhenhua Ning</strong>' }}</p>
+      <p><em>{{ paper.venue }}</em> · {{ paper.date | date: '%Y' }} &nbsp; [<a href="{{ paper.paperurl }}">Paper</a>]{% if paper.codeurl %} &nbsp; [<a href="{{ paper.codeurl }}">Code</a>]{% endif %}</p>
+    </div>
   </article>
   {% endfor %}
 </div>

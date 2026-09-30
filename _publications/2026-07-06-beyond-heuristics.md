@@ -8,6 +8,7 @@ venue: "ICML 2026"
 authors: "Zhenhua Ning, Xin Li, Jun Yu, Guangming Lu, Yaowei Wang, Wenjie Pei"
 link: "https://proceedings.mlr.press/v306/ning26e.html"
 paperurl: "https://raw.githubusercontent.com/mlresearch/v306/main/assets/ning26e/ning26e.pdf"
+thumbnail: "/images/publications/beyond-heuristics-figure-1.png"
 codeurl: "https://github.com/AaronNZH/LeGS"
 ---
 
