@@ -4,7 +4,7 @@ collection: publications
 category: conferences
 permalink: /publication/boosting-few-shot/
 date: 2023-10-29
-venue: "ACM MM 2023"
+venue: "ACM MM"
 authors: "Zhenhua Ning, Zhuotao Tian, Guangming Lu, Wenjie Pei"
 link: "https://doi.org/10.1145/3581783.3612287"
 paperurl: "https://arxiv.org/pdf/2308.03177"
