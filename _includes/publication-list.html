@@ -7,8 +7,12 @@
     </a>
     <div class="publication-list__details">
       <h3><a href="{{ paper.link }}">{{ paper.title }}</a></h3>
-      <p>{{ paper.authors | replace: 'Zhenhua Ning', '<strong>Zhenhua Ning</strong>' }}</p>
-      <p><em>{{ paper.venue }}</em> · {{ paper.date | date: '%Y' }} &nbsp; [<a href="{{ paper.paperurl }}">Paper</a>]{% if paper.codeurl %} &nbsp; [<a href="{{ paper.codeurl }}">Code</a>]{% endif %}</p>
+      <p class="publication-list__authors">{{ paper.authors | replace: 'Zhenhua Ning', '<strong>Zhenhua Ning</strong>' }}</p>
+      <p class="publication-list__venue">{{ paper.venue }} · {{ paper.date | date: '%Y' }}</p>
+      <div class="publication-list__links">
+        <a href="{{ paper.paperurl }}">Paper <span aria-hidden="true">↗</span></a>
+        {% if paper.codeurl %}<a href="{{ paper.codeurl }}">Code <span aria-hidden="true">↗</span></a>{% endif %}
+      </div>
     </div>
   </article>
   {% endfor %}
