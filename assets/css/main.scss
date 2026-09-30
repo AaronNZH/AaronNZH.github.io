@@ -37,3 +37,18 @@
     "layout/sidebar",
     "layout/json_cv"
 ;
+
+/* Publication entries shared by the homepage and publication archive. */
+.publication-list__item {
+  margin-bottom: 1.8em;
+}
+
+.publication-list__item h3 {
+  margin-bottom: 0.35em;
+  font-size: 1.05em;
+}
+
+.publication-list__item p {
+  margin: 0.2em 0;
+  font-size: 0.9em;
+}

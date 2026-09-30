@@ -16,3 +16,4 @@ Experiences
 Publications
 ======
 
+{% include publication-list.html %}

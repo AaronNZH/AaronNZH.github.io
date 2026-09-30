@@ -1,0 +1,10 @@
+{% assign papers = site.publications | sort: 'date' | reverse %}
+<div class="publication-list">
+  {% for paper in papers %}
+  <article class="publication-list__item">
+    <h3><a href="{{ paper.link }}">{{ paper.title }}</a></h3>
+    <p>{{ paper.authors | replace: 'Zhenhua Ning', '<strong>Zhenhua Ning</strong>' }}</p>
+    <p><em>{{ paper.venue }}</em> · {{ paper.date | date: '%Y' }} &nbsp; [<a href="{{ paper.paperurl }}">Paper</a>]{% if paper.codeurl %} &nbsp; [<a href="{{ paper.codeurl }}">Code</a>]{% endif %}</p>
+  </article>
+  {% endfor %}
+</div>
