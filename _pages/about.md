@@ -11,8 +11,7 @@ I am Zhenhua Ning (宁振华), a second-year PhD student in the School of Comput
 
 My research interests include 3D computer vision, multimodal learning, embodied AI, and multimodal large language models (MLLMs).
 
-Experiences
-======
+## Experiences
 
 <div class="experience-list">
   <div class="experience-list__item">
@@ -28,7 +27,6 @@ Experiences
   </div>
 </div>
 
-Publications
-======
+## Publications
 
 {% include publication-list.html %}
