@@ -7,9 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-I am Zhenhua Ning (宁振华), a second-year PhD student in the School of Computer Science and Technology at **Harbin Institute of Technology, Shenzhen**, advised by Prof. Wenjie Pei. I am also a joint PhD student at Pengcheng Laboratory, advised by Dr. Xin Li.
-
-My research interests include 3D Vision, Embodied AI, Multimodal Large Language Models (MLLMs).
+I am Zhenhua Ning (宁振华), a PhD student in the School of Computer Science and Technology at Harbin Institute of Technology, Shenzhen, under the supervision of Prof. Wenjie Pei. I am also a joint PhD student at Pengcheng Laboratory, mentored by Dr. Xin Li. My research interests lie in 3D vision, embodied AI, and multimodal large language models (MLLMs), with a focus on their integration for next-generation intelligent systems.
 
 ## Experiences
 
