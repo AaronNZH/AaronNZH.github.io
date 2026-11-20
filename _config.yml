@@ -11,7 +11,7 @@ locale                   : "en-US"
 site_theme               : "default" # The available themes options are "default", "air", "sunrise", "mint", "dirt" and "contrast"
 title                    : "Welcome to Zhenhua's Homepage"
 title_separator          : "-"
-name                     : &name "Zhhua Ning"
+name                     : &name "Zhenhua Ning"
 description              : &description ""   # Update this with a general description of your site, this is the default if not overridden by a page
 url                      : https://aaronnzh.github.io # The base hostname & protocol for your site e.g. "https://[your GitHub username].github.io",
                                                            # or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
@@ -27,7 +27,7 @@ author:
   name             : "宁振华 (Zhenhua Ning)"
   location         : "Shen Zhen"
   employer         : "Harbin Institute of Technology"
-  email            : "aaronnzh.@gmail.com" 
+  email            : "aaronnzh@gmail.com" 
 
   # Academic websites
   academia         : # URL
